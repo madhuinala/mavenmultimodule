@@ -28,12 +28,13 @@
   			<version>2.21.0</version>
   			<configuration>
   				<suiteXmlFiles>
-  					<suiteXmlFile>testng.xml</suiteXmlFile>
+  					<!-- <suiteXmlFile>${suitefile}</suiteXmlFile> -->
+  					<suiteXmlFile>smoke.xml</suiteXmlFile>
   				</suiteXmlFiles>
-  				<systemPropertyVariables>
+  				<!-- <systemPropertyVariables>
   					<env>${env}</env>
   					<browser>${browser}</browser>
-  				</systemPropertyVariables>
+  				</systemPropertyVariables> -->
   			</configuration>
   		</plugin> 	
   		<plugin>

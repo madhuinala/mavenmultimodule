@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke" duration-ms="138" started-at="2020-04-11T14:24:46Z" finished-at="2020-04-11T14:24:46Z">
+    <groups>
+    </groups>
+    <test name="SmokeTest" duration-ms="138" started-at="2020-04-11T14:24:46Z" finished-at="2020-04-11T14:24:46Z">
+      <class name="child2pack1.SmokeTest">
+        <test-method status="PASS" signature="smokemethod1()[pri:0, instance:child2pack1.SmokeTest@14acaea5]" name="smokemethod1" duration-ms="35" started-at="2020-04-11T19:54:46Z" finished-at="2020-04-11T19:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokemethod1 -->
+        <test-method status="PASS" signature="smokemethod2()[pri:0, instance:child2pack1.SmokeTest@14acaea5]" name="smokemethod2" duration-ms="47" started-at="2020-04-11T19:54:46Z" finished-at="2020-04-11T19:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokemethod2 -->
+        <test-method status="PASS" signature="smokemethod3()[pri:0, instance:child2pack1.SmokeTest@14acaea5]" name="smokemethod3" duration-ms="2" started-at="2020-04-11T19:54:46Z" finished-at="2020-04-11T19:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokemethod3 -->
+      </class> <!-- child2pack1.SmokeTest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- Smoke -->
+</testng-results>
