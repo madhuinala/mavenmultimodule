@@ -19,7 +19,7 @@
 		<version>6.9.10</version>
   	</dependency>
   </dependencies>
-  
+  <!-- mvn test -Dsurefile.suiteXmlFiles=smokexml,sanity.xml -->
   <build>
   	<plugins>
   		<plugin>
@@ -27,10 +27,15 @@
   			<artifactId>maven-surefire-plugin</artifactId>
   			<version>2.21.0</version>
   			<configuration>
+		  		<properties>
+		  			<property>
+		  				<name>suitethreadpoolsize</name>
+		  				<value>2</value>
+		  			</property>
+		  		</properties>
   				<suiteXmlFiles>
-  					<!-- <suiteXmlFile>${suitefile}</suiteXmlFile> -->
-  					<suiteXmlFile>smoke.xml</suiteXmlFile>
-  				</suiteXmlFiles>
+  					<suiteXmlFile>${suitefiles}</suiteXmlFile>
+  				</suiteXmlFiles>				
   				<!-- <systemPropertyVariables>
   					<env>${env}</env>
   					<browser>${browser}</browser>

@@ -7,7 +7,7 @@ public class SmokeTest {
 	
 	@Test
 	public void smokemethod1(){
-		System.out.println("This is smoke test method1");
+		System.out.println("This is smoke test method1");		
 	}
 	
 	@Test
