@@ -10,14 +10,14 @@ pipeline{
 		stage ('smoke test'){
 			steps{
 				echo "this is smoke test execution";
-				readMavenPom file: '/Child2Demo/pom.xml';
+				//readMavenPom file: '/Child2Demo/pom.xml';
 				sh "mvn compile test -Dsurefire.suiteXmlFiles=smoke.xml";
 			}
 		}
 		stage ('sanity test'){
 			steps{
 				echo "this is sanity test execution";
-				readMavenPom file: '/Child2Demo/pom.xml';
+				//readMavenPom file: '/Child2Demo/pom.xml';
 				sh "mvn test -Dsurefire.suiteXmlFiles=sanity.xml";
 			}
 		}
