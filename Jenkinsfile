@@ -21,13 +21,6 @@ pipeline{
 				sh "mvn test -Dsurefire.suiteXmlFiles=sanity.xml";
 			}
 		}
-		stage ('multi test'){
-			steps{
-				echo "this is sanity test execution";
-				//readMavenPom file: '/Child2Demo/pom.xml';
-				sh "mvn test -Dsurefire.suiteXmlFiles=smoke.xml,sanity.xml";
-			}
-		}
 		
 	}
 }
