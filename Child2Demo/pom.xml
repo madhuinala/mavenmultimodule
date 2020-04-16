@@ -17,7 +17,106 @@
   		<groupId>org.testng</groupId>
 		<artifactId>testng</artifactId>
 		<version>6.9.10</version>
-  	</dependency>
+  	</dependency>  
+	<dependency>
+		<groupId>extentreports</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/extentreports-4.0.9.jar</systemPath>
+	    <version>1.0</version>
+	</dependency>
+	<dependency>
+		<groupId>freemarker</groupId>
+	    <artifactId>freemarker</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/freemarker-2.3.23.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+	<dependency>
+		<groupId>bsh</groupId>
+	    <artifactId>bsh</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/bsh-2.0b4.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+	<dependency>
+		<groupId>brson</groupId>
+	    <artifactId>brson</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/bson-3.3.0.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+	<dependency>
+		<groupId>commons</groupId>
+	    <artifactId>commons</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/commons-codec-1.9.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+	<dependency>
+		<groupId>logging</groupId>
+	    <artifactId>logging</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/commons-logging-1.2.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+	<dependency>
+		<groupId>gson</groupId>
+	    <artifactId>gson</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/gson-2.8.5.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>
+	<dependency>
+		<groupId>httpclient</groupId>
+	    <artifactId>httpclient</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/httpclient-4.5.2.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+	<dependency>
+		<groupId>httpcore</groupId>
+	    <artifactId>httpcore</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/httpcore-4.4.4.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+	<dependency>
+		<groupId>httpmime</groupId>
+	    <artifactId>httpmime</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/httpmime-4.5.2.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>		
+	<dependency>
+		<groupId>jcommander</groupId>
+	    <artifactId>jcommander</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/jcommander-1.48.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+	<dependency>
+		<groupId>mongodb-driver</groupId>
+	    <artifactId>mongodb-driver</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/mongodb-driver-3.3.0.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+	<dependency>
+		<groupId>mongodb-driver</groupId>
+	    <artifactId>mongodb-driver-core</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/mongodb-driver-core-3.3.0.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+	<dependency>
+		<groupId>testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/lib/testng-6.9.10.jar</systemPath>	    
+	    <version>1.0</version>
+	</dependency>	
+		
   </dependencies>
   <!-- mvn test -Dsurefile.suiteXmlFiles=smokexml,sanity.xml -->
   <build>
@@ -44,12 +143,15 @@
   		</plugin> 	
   		<plugin>
 			<artifactId>maven-assembly-plugin</artifactId>
-			<version>2.2</version>
-			<configuration>
+			<version>2.2</version>			
+			<configuration>			
+				<includes>
+					<include>${basedir}/lib/*.jar</include>
+				</includes>					
 				<descriptorRefs>
 					<descriptorRef>jar-with-dependencies</descriptorRef>
 				</descriptorRefs>
-			</configuration>
+			</configuration>			
 			<executions>
 				<execution>
 					<id>make-assembly</id>
@@ -61,5 +163,5 @@
 			</executions>
 		</plugin>  		  		
   	</plugins>
-  </build>
+  </build>  
 </project>

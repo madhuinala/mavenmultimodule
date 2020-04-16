@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Smoke]">
+  <listeners>
+    <listener class-name="listeners.ExtentReportsListeners"/>
+  </listeners>
   <test name="SmokeTest">
     <classes>
       <class name="child2pack1.SmokeTest"/>

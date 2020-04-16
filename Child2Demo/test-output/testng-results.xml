@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke" duration-ms="138" started-at="2020-04-11T14:24:46Z" finished-at="2020-04-11T14:24:46Z">
+  <suite name="Smoke" duration-ms="57" started-at="2020-04-16T05:44:42Z" finished-at="2020-04-16T05:44:42Z">
     <groups>
     </groups>
-    <test name="SmokeTest" duration-ms="138" started-at="2020-04-11T14:24:46Z" finished-at="2020-04-11T14:24:46Z">
+    <test name="SmokeTest" duration-ms="57" started-at="2020-04-16T05:44:42Z" finished-at="2020-04-16T05:44:42Z">
       <class name="child2pack1.SmokeTest">
-        <test-method status="PASS" signature="smokemethod1()[pri:0, instance:child2pack1.SmokeTest@14acaea5]" name="smokemethod1" duration-ms="35" started-at="2020-04-11T19:54:46Z" finished-at="2020-04-11T19:54:46Z">
+        <test-method status="PASS" signature="smokemethod1()[pri:0, instance:child2pack1.SmokeTest@57baeedf]" name="smokemethod1" duration-ms="16" started-at="2020-04-16T11:14:42Z" finished-at="2020-04-16T11:14:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokemethod1 -->
-        <test-method status="PASS" signature="smokemethod2()[pri:0, instance:child2pack1.SmokeTest@14acaea5]" name="smokemethod2" duration-ms="47" started-at="2020-04-11T19:54:46Z" finished-at="2020-04-11T19:54:46Z">
+        <test-method status="PASS" signature="smokemethod2()[pri:0, instance:child2pack1.SmokeTest@57baeedf]" name="smokemethod2" duration-ms="7" started-at="2020-04-16T11:14:42Z" finished-at="2020-04-16T11:14:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokemethod2 -->
-        <test-method status="PASS" signature="smokemethod3()[pri:0, instance:child2pack1.SmokeTest@14acaea5]" name="smokemethod3" duration-ms="2" started-at="2020-04-11T19:54:46Z" finished-at="2020-04-11T19:54:46Z">
+        <test-method status="PASS" signature="smokemethod3()[pri:0, instance:child2pack1.SmokeTest@57baeedf]" name="smokemethod3" duration-ms="5" started-at="2020-04-16T11:14:42Z" finished-at="2020-04-16T11:14:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokemethod3 -->

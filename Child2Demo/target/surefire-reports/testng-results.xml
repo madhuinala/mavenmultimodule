@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="sanity" duration-ms="31" started-at="2020-04-11T14:55:32Z" finished-at="2020-04-11T14:55:32Z">
+  <suite name="Smoke" duration-ms="36" started-at="2020-04-11T15:02:54Z" finished-at="2020-04-11T15:02:54Z">
     <groups>
     </groups>
-    <test name="SanityTest" duration-ms="31" started-at="2020-04-11T14:55:32Z" finished-at="2020-04-11T14:55:32Z">
-      <class name="child2pack1.SanityTest">
-        <test-method status="PASS" signature="sanitymethod2()[pri:0, instance:child2pack1.SanityTest@2096442d]" name="sanitymethod2" duration-ms="16" started-at="2020-04-11T20:25:32Z" finished-at="2020-04-11T20:25:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sanitymethod2 -->
-        <test-method status="PASS" signature="sanitymethod3()[pri:0, instance:child2pack1.SanityTest@2096442d]" name="sanitymethod3" duration-ms="0" started-at="2020-04-11T20:25:32Z" finished-at="2020-04-11T20:25:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sanitymethod3 -->
-        <test-method status="PASS" signature="sanitythod1()[pri:0, instance:child2pack1.SanityTest@2096442d]" name="sanitythod1" duration-ms="0" started-at="2020-04-11T20:25:32Z" finished-at="2020-04-11T20:25:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sanitythod1 -->
-      </class> <!-- child2pack1.SanityTest -->
-    </test> <!-- SanityTest -->
-  </suite> <!-- sanity -->
-  <suite name="Smoke" duration-ms="31" started-at="2020-04-11T14:55:32Z" finished-at="2020-04-11T14:55:32Z">
-    <groups>
-    </groups>
-    <test name="SmokeTest" duration-ms="31" started-at="2020-04-11T14:55:32Z" finished-at="2020-04-11T14:55:32Z">
+    <test name="SmokeTest" duration-ms="36" started-at="2020-04-11T15:02:54Z" finished-at="2020-04-11T15:02:54Z">
       <class name="child2pack1.SmokeTest">
-        <test-method status="PASS" signature="smokemethod1()[pri:0, instance:child2pack1.SmokeTest@3567135c]" name="smokemethod1" duration-ms="16" started-at="2020-04-11T20:25:32Z" finished-at="2020-04-11T20:25:32Z">
+        <test-method status="PASS" signature="smokemethod1()[pri:0, instance:child2pack1.SmokeTest@6be46e8f]" name="smokemethod1" duration-ms="19" started-at="2020-04-11T20:32:54Z" finished-at="2020-04-11T20:32:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokemethod1 -->
-        <test-method status="PASS" signature="smokemethod2()[pri:0, instance:child2pack1.SmokeTest@3567135c]" name="smokemethod2" duration-ms="0" started-at="2020-04-11T20:25:32Z" finished-at="2020-04-11T20:25:32Z">
+        <test-method status="PASS" signature="smokemethod2()[pri:0, instance:child2pack1.SmokeTest@6be46e8f]" name="smokemethod2" duration-ms="0" started-at="2020-04-11T20:32:54Z" finished-at="2020-04-11T20:32:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokemethod2 -->
-        <test-method status="PASS" signature="smokemethod3()[pri:0, instance:child2pack1.SmokeTest@3567135c]" name="smokemethod3" duration-ms="0" started-at="2020-04-11T20:25:32Z" finished-at="2020-04-11T20:25:32Z">
+        <test-method status="PASS" signature="smokemethod3()[pri:0, instance:child2pack1.SmokeTest@6be46e8f]" name="smokemethod3" duration-ms="0" started-at="2020-04-11T20:32:54Z" finished-at="2020-04-11T20:32:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokemethod3 -->
